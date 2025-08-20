@@ -4,9 +4,9 @@ c = input("Type c parameter: ")
 delta = x1 = x2 = 0
 
 
-a = int(a)
-b = int(b)
-c = int(c)
+a = float(a)
+b = float(b)
+c = float(c)
 if a == 0:
     x2 = -c/b
     print("Equation is first degree equation, and has the root x is: ",x2)
