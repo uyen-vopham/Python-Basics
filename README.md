@@ -1,14 +1,20 @@
 # Python-Basics
-# 🐍 Python Basics — Quadratic Equation Playground  
+# 🐍 Python Basics — Quadratic Equation  
 
-👋 Xin chào từ **Vietnam** 🇻🇳 và **EIU STEC** 🎓  
-
-Repo này chứa các bài tập Python nhỏ giúp bạn học cách:  
-✅ Nhập dữ liệu từ bàn phím  
-✅ Xử lý lỗi khi nhập sai  
-✅ Viết hàm tái sử dụng  
-✅ Giải phương trình bậc hai \(ax^2 + bx + c = 0\)  
+👋 Hello from **Vietnam** 🇻🇳 and **EIU STEC** 🎓  
+ 
+This repo contains exercise of Python basics with:
+✅ Input data from keyboard
+✅ Fix bug when typo errors 
+✅ Function to automatic check numbers 
+✅ Quadratic Equation
 
 ---
 
-## 📂 Cấu trúc project
+## 📂 Structure
+
+Python-Basics/
+├── pb1.py # Nhập một số có 1 chữ số
+├── pb2.py # Báo lỗi nếu nhập ký tự
+├── pb3.py # Báo lỗi nếu nhập ký tự hoặc số > 9
+└── pb4.py # Hàm kiểm tra số hay ký tự
