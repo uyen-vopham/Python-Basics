@@ -4,9 +4,13 @@
 👋 Hello from **Vietnam** 🇻🇳 and **EIU STEC** 🎓  
  
 This repo contains exercise of Python basics with:
+
 ✅ Input data from keyboard
+
 ✅ Fix bug when typo errors 
+
 ✅ Function to automatic check numbers 
+
 ✅ Quadratic Equation
 
 ---
