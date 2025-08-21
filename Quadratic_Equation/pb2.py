@@ -2,7 +2,7 @@ a = input("Type a parameter: ")
 b = input("Type b parameter: ")
 c = input("Type c parameter: ")
 numeric = ["1","2", "3", "4", "5", "6", "7", "8", "9", "0","-"]
-numeric_negative = ("-1","-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9")
+numeric_negative = ["-1","-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9"]
 delta = x1 = x2 = 0
 
 if a in numeric or a in numeric_negative:
