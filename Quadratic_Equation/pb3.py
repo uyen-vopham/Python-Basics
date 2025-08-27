@@ -7,26 +7,22 @@ sign = ["-", "+"]
 delta = x1 = x2 = 0
 flag_a = flag_b = flag_c = True
 
-list_a = list(a)
-list_b = list(b)
-list_c = list(c)
+if a.count(".") > 1: flag_a = False
+if b.count(".") > 1: flag_b = False
+if c.count(".") > 1: flag_c = False
 
-if list_a.count(".") > 1: flag_a = False
-if list_b.count(".") > 1: flag_b = False
-if list_c.count(".") > 1: flag_c = False
+if a[0] in numeric or a[0] in sign: pass
+if b[0] in numeric or b[0] in sign: pass
+if c[0] in numeric or c[0] in sign: pass
 
-if list_a[0] in numeric or list_a[0] in sign: pass
-if list_b[0] in numeric or list_b[0] in sign: pass
-if list_c[0] in numeric or list_c[0] in sign: pass
-
-for i in range (1, len(list_a)):
-    if list_a[i] in numeric: pass
+for i in range (1, len(a)):
+    if a[i] in numeric: pass
     else: flag_a = False
-for i in range (1, len(list_b)):
-    if list_b[i] in numeric: pass
-    else: flag_b = False
-for i in range (1, len(list_c)):
-    if list_c[i] in numeric: pass
+for i in range (1, len(b)):
+    if b[i] in numeric: pass
+    else: b = False
+for i in range (1, len(c)):
+    if c[i] in numeric: pass
     else: flag_c = False
 
 if flag_a and flag_b and flag_c:
