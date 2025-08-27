@@ -9,7 +9,6 @@ delta = x1 = x2 = 0
 
 def check_number(list_num):
     flag = True
-    list_num=list(list_num)
     if list_num.count(".")>1: flag = False
     if list_num[0] in numeric or list_num[0] in sign: pass
 
