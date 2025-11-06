@@ -1,0 +1,6 @@
+num = input("Type a number: ")
+num_int = 0
+for i in num:
+    num_int += int(i)
+
+print("Sum of digit is: ",num_int)
