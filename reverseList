@@ -1,0 +1,8 @@
+list_ex = ['C', 'E', 'T', 'S', True, 3, 2, 1]
+print("Ready to reverse a list!")
+rev_list = []
+for i in range (len(list_ex)-1,-1,-1):
+    rev_list.append(list_ex[i])
+
+print("Your reverse list is below!")
+print(rev_list)
