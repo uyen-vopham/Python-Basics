@@ -1,0 +1,14 @@
+num_in = input("Type number/word: ")
+list_out = []
+count = 0
+for i in range(len(num_in) -1,-1,-1):
+    list_out.append(num_in[i])
+for i in range(0,len(num_in)):
+    if num_in[i] == list_out[i]:
+        count +=1
+    else:
+        pass
+if count == len(num_in):
+    print("You number/word is a Panlindrome")
+else:
+    print("You number/word is not a Panlindrome")
